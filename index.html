@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +12,19 @@
 </head>
 <body>
     <main>
-        <textarea placeholder="Digite seu texto aqui" id=""></textarea>
+        <textarea class="input-texto" placeholder="Digite seu texto aqui" id=""></textarea>
 
         <nav>
-            <select name="" id="">
-                <option value="">Inglês</option>
-                <option value="">Espanhol</option>
-                <option value="">Francês</option>
-                <option value="">Alemão</option>
-                <option value="">Italiano</option>
-                <option value="">Português</option>
+            <select class="idiomas" name="" id="">
+                <option value="inglês">Inglês</option>
+                <option value="espanhol">Espanhol</option>
+                <option value="francês">Francês</option>
+                <option value="alemão">Alemão</option>
+                <option value="italiano">Italiano</option>
+                <option value="português">Português</option>
             </select>
             
-            <button><img src="./img/traduzir.svg" alt=""></button>
+            <button onclick="traduzir()" ><img src="./img/traduzir.svg" alt=""></button>
             <button class="mic"><img src="./img/microfone (1).svg" alt=""></button>
             
         </nav>
@@ -36,4 +36,7 @@
 
     </main>
 </body>
+
+<script src="script.js"></script>
+
 </html>

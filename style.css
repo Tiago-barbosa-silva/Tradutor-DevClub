@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
-    font-family: 'Lora', serif;
+    
    
 
 }
@@ -24,11 +24,11 @@ main{
     flex-direction: column;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.863);
-    height: 35vh;
+    height: 40%;
     width: 35%;
     border-radius: 20px;
     padding: 20px;
-    margin: 0;
+    
 
     & textarea {
         height: 100%;
