@@ -2,7 +2,7 @@ let inputText = document.querySelector('.input-texto');
 let traducao = document.querySelector('.traducao');
 let idiomas = document.querySelector('.idiomas'); 
 let mic = document.querySelector('.mic');
-let endereco = "";
+let endereco = ""; // variável para armazenar a URL da API de tradução 
 async function traduzir() { // função assíncrona q traduz o texto ao ser chamada
   
 
@@ -17,7 +17,7 @@ async function traduzir() { // função assíncrona q traduz o texto ao ser cham
 
 
 
-function idiomaSelecionado() {
+function idiomaSelecionado() { // função para determinar o idioma selecionado e construir a URL da API de tradução
 
     let idioma = idiomas.value; // obtém o valor selecionado no menu suspenso de idiomas
 
